@@ -8,7 +8,7 @@
     </nav>
  
     <div class="container">
-
+      <p>Formulário para cadastro de items no inventório.</p>
       <form @submit.prevent="salvar">
 
           <label>Name</label>
@@ -23,10 +23,11 @@
           <button class="waves-effect waves-light btn-small">Salvar<i class="material-icons left">save</i></button>
 
       </form>
-      <br>
+      
+        <p>Retornar quantos itens estão no inventório de acordo com o parametro complete.</p>
         <label>Complete</label>
         <input type="text" placeholder="all or true or false" v-model="complete">
-        <button @click="howMany()" class="waves-effect waves-light btn-small">How many ?<i class="material-icons left">save</i></button>
+        <button @click="howMany()" class="waves-effect waves-light btn-small">How many ?</button>
 
 
       <table>
