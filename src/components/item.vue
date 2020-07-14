@@ -9,7 +9,7 @@
  
     <div class="container">
 
-      <form @submit="submit()">
+      <form @submit.prevent="submit()">
 
           <label>Name</label>
           <input type="text" placeholder="Name" v-model="item.name">
