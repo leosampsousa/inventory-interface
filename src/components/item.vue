@@ -16,7 +16,7 @@
           <label>Category</label>
           <input type="text" placeholder="Category" v-model='item.category'>
           <label>Value</label>
-          <input type="number" placeholder="Value" v-model="item.value">
+          <input type="number" step="0.01" placeholder="Value" v-model="item.value">
           <label>Complete</label>
           <input type="text" placeholder="true or false" v-model="item.complete">
 
